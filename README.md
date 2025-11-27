@@ -65,9 +65,9 @@ Open it in your browser to access the running application.
 -   **Never commit terraform.tfstate to GitHub**
 -   Always configure `.gitignore`
 -   Destroy infrastructure when done:
-
+```
     terraform destroy
-
+```
 ------------------------------------------------------------------------
 
 ## 🧹 Cleanup
