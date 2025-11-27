@@ -66,9 +66,6 @@ Open it in your browser to access the running application.
 -   Always configure `.gitignore`
 -   Destroy infrastructure when done:
 
-```{=html}
-<!-- -->
-```
     terraform destroy
 
 ------------------------------------------------------------------------
