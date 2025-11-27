@@ -66,16 +66,16 @@ Open it in your browser to access the running application.
 -   Always configure `.gitignore`
 -   Destroy infrastructure when done:
 ```
-    terraform destroy
+terraform destroy
 ```
 ------------------------------------------------------------------------
 
 ## 🧹 Cleanup
 
 To remove all AWS resources created:
-
-    terraform destroy -auto-approve
-
+```
+terraform destroy -auto-approve
+```
 This will delete the ECS cluster, ALB, VPC, subnets, and all related
 resources.
 
